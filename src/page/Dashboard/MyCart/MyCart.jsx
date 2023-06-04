@@ -42,7 +42,7 @@ const MyCart = () => {
             <div className="uppercase font-semibold flex h-[60px] justify-around items-center md:gap-10 px-2">
                 <p className="text-2xl">Total Order : {cart.length}</p>
                 <p className="text-2xl">Total Price : ${result.toFixed(2)}</p>
-               <Link to="/dashboard/payment"><button className="btn btn-warning btn-sm">Complete Payment</button></Link>
+               <button className={`btn btn-warning btn-sm ${cart.length === 0 ? 'hidden' : ''}`}><Link to="/dashboard/payment">Complete Payment</Link></button>
             </div>
             <div className="overflow-x-auto w-full">
                 <table className="table w-full">
