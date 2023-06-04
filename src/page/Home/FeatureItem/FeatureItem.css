@@ -1,0 +1,6 @@
+.custom-bg-Images{
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+    background-image: url('../../../assets/home/featured.jpg');
+}

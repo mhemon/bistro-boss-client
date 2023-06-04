@@ -1,0 +1,11 @@
+.custom-menu-card{
+    border-radius: 0px 200px 200px 200px;
+}
+
+@media screen and (max-width: 577px) {
+    .custom-menu-card{
+        height: 150px;
+        object-fit: cover;
+        border-radius: 0px 50px 50px 50px;
+    }
+}
